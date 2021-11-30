@@ -72,8 +72,11 @@ Add your introduction to your step-by-step-guide, including a title, time requir
 ** Be careful to keep all the HTML tags intact when you are changing the text.
 -->         
         <div class="introduction">
+          
+          <a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/ransomtech/11375917205/in/photolist-ikfxRx-4vVq3Q-Pm3DvM-ahFga3-2k5SsQS-23RjQTw-dncfaQ-8STKbo-LMhgjd-ZrjzSd-67SPsi-4jEKx-C37CPj-drsLJp-4mJSMT-gqtWtp-8VmRJj-7LftdC-RwnnXS-76tupE-BuJBHq-7HmbHU-cyArnN-RAJp3b-fwgNTN-CgbHfU-UXsDVy-2jro4uV-67SPwp-26LnCpd-bxCTUB-QviQaJ-2gXzDnS-2gP5wVA-7HvYCp-2gWhXoG-79j1Ae-c6vamj-9oQSEu-2dzPchj-2gP4B9g-2gGzpM6-8iXjbd-8xrdi-671uhR-rsCmRj-BwRJMP-RBAzk5-ZsMU2q-26fNJQG" title="Plagiarism"><img src="https://live.staticflickr.com/7423/11375917205_d3a610a9b3_t.jpg" width="100" height="67" alt="Plagiarism"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
           <div class="information">
+            
             <h1>How to not steal others' work and get your own ideas</h1>
 
             <hr>
@@ -139,7 +142,22 @@ Add your steps. When you need a new step, copy and paste all of the code of an e
           <li>
             <div class="content">
               <h3>Refer to the latest edition of your citation style’s manual to cite sources accurately.</h3>
-              <p>Remember, the bottle must be upside down and the flippers must not be taped at the bottle's base.</p>
+              <p>The specific rules of a citation style can be hard to follow at first. 
+                 Purchase, borrow, or download a digital copy of the most recently-published edition of your chosen style’s manual to avoid errors. 
+                 Use the manual to accurately cite all the types of sources you use in your work, including:
+                <ul class="List-of-Items">
+                  <li>Books
+                      Specific chapters of a book
+                      Journal articles
+                      Figures
+                      Websites
+                      Manuals
+                      Instructor’s lectures
+                      Online books
+                      Historical documents
+                      Films
+              
+              </p>
 
               <!--
 This block contains a photo and has a caption.
@@ -158,9 +176,6 @@ with a paragraph to create a photo with a caption.
               <p>After all of your in-text citations are made and your writing is complete, you should put together a full, detailed list of the sources you’ve used. 
                 The format, order, and punctuation of these citations will vary between citation styles. Each style, however, requires you to include crucial information about your references, such as:
               </p>
-
-
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/tntOCGkgt98" frameborder="0" allowfullscreen></iframe>
             </div>
 
           </li>
@@ -231,9 +246,12 @@ Customise the visual style and appearance of your guide.
         margin:0 0 130px;
         width:100%;
         font-weight:normal;
-        font-family:"Helvetica";         /* CHANGE THE FONT HERE */
-        color:#29D5E3;         /* CHANGE THE FONT COLOR HERE */
-        background-color: #FFF8DC; 
+        font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;         /* CHANGE THE FONT HERE */
+        color:#575334;         /* CHANGE THE FONT COLOR HERE */
+        background-color: #e5e5f7;
+        opacity: 1;
+        background-size: 20px 20px;
+        background-image: repeating-linear-gradient(0deg, #574D45, #574D45 1px, #e5e5f7 1px, #e5e5f7);; 
       }  
 
       /* PAGE LAYOUT */
@@ -241,7 +259,7 @@ Customise the visual style and appearance of your guide.
       header, footer {
         padding:5%;
         border:0 10%;
-        background-color:#2F5080;          /* CHANGE THE HEADER AND FOOTER COLOR HERE */
+        background-color:#fff;          /* CHANGE THE HEADER AND FOOTER COLOR HERE */
         width:100%;
         margin:0px;        
       }
@@ -255,8 +273,8 @@ Customise the visual style and appearance of your guide.
       }
 
       header img {
-        padding-right: 10%;
-        position: relative;
+        padding-right: 5%;
+        position: right;
       }
 
       .wrapper {
@@ -270,7 +288,7 @@ Customise the visual style and appearance of your guide.
       /* BASIC STYLES FOR THE PAGE */
       
       a {
-        color: #2466B3;         /* CHANGE THE LINK COLOR HERE */
+        color: #CDCDC2;         /* CHANGE THE LINK COLOR HERE */
         font-weight:bold;
       }
 
@@ -279,7 +297,7 @@ Customise the visual style and appearance of your guide.
         margin:0;
         width:100%;
         font-weight:bold;
-        font-family "Helvetica";          /* CHANGE THE HEADER FONT HERE */
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;          /* CHANGE THE HEADER FONT HERE */
       }
 
       h2, h3, h4 {
@@ -297,10 +315,10 @@ Customise the visual style and appearance of your guide.
 
       /* Styles for unordered lists <ul> */
       ul {
-        font-family:"Courier New", Courier, monospace;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         box-shadow:0px 2px 10px #ddd;
-        background-color: #E68163;          /* CHANGE THE THINGS BACKGROUND COLOR HERE */
-        border: 1px solid #555;           /* CHANGE THE THINGS BORDER HERE */
+        background-color: #CDCAC7;          /* CHANGE THE THINGS BACKGROUND COLOR HERE */
+        border: 1px solid #575334;           /* CHANGE THE THINGS BORDER HERE */
         padding:0;
         margin:2em 0 0;
         position:relative;
@@ -322,11 +340,11 @@ Customise the visual style and appearance of your guide.
       }
 
       .content {
-        background: #FFF8DC;          /* CHANGE THE INSTRUCTION BACKGROUND COLOR HERE */
+        background: #574D45;          /* CHANGE THE INSTRUCTION BACKGROUND COLOR HERE */
       }
 
       .step-by-step li:before {
-        background: #D3E3F0;          /* CHANGE THE INSTRUCTION NUMBER BACKGROUND COLOR HERE */
+        background: #79716A;          /* CHANGE THE INSTRUCTION NUMBER BACKGROUND COLOR HERE */
         border-top-left-radius: 50px;          /* CHANGE THE INSTRUCTION SHAPE HERE */
         border-bottom-left-radius: 50px;
       }
@@ -371,7 +389,7 @@ Customise the visual style and appearance of your guide.
 
       /* Hover state styles for list items inside unordered list <li> */
       ul li:hover {
-        background-color: #e68163;
+        background-color: #ABA6A2;
       }
 
 
@@ -430,9 +448,9 @@ Customise the visual style and appearance of your guide.
         left:-40px;
         z-index:-1;
         background: #293C52; 
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
       }
+      
+      
 
       /* Styles for sub-list item numbering */
       .step-by-step li li:before {
